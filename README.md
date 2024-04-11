@@ -91,6 +91,11 @@ ngrok is a tool that allows you to expose a local server or application running 
          }'
 ```
 
+## UI Inspiration (Messenger Dashboard Web App : By Golo : Dribble)
+![UI Inspiration](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/cc97ae3b-e80b-4042-8eed-3c81b6ba651a)
+
+
+
 
 
 ## Creating UI in SwiftUI / Flutter 
