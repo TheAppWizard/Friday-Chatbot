@@ -51,13 +51,46 @@ Ollama provides a simple API for creating, running, and managing language models
 
 ### Running As API Service (Local Host)
 ```curl
- curl --location 'http://localhost:11434/api/chat' \
+ curl --location 'http://localhost:11434/api/generate' \
          --header 'Content-Type: application/json' \
          --data '{
            "model": "foodie_friday_llama2",
            "prompt":"What are chocolates?"
          }'
 ```
+
+## NGROK 
+ngrok is a tool that allows you to expose a local server or application running on your machine to the internet. It creates a secure tunnel from a public URL to your local machine, enabling you to access your local development environment from anywhere.
+
+![NGROK Image](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/6db6863e-f2d4-4a46-8454-057c053d936d)
+
+
+
+### Convert Local Server to Public URL
+- Run Model
+```terminal
+ ollama run foodie_friday_llama2
+```
+
+- Convert To Public URL
+```terminal
+ ngrok http 11434 --host-header="localhost:11434"
+```
+
+![NGROK Panel](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/8071c54f-39a1-43b0-b811-eaa83d30005c)
+
+
+
+### Running As API Service (Public URL)
+```curl
+ curl --location 'https://defc-182-48-225-219.ngrok-free.app/api/generate' \
+         --header 'Content-Type: application/json' \
+         --data '{
+           "model": "foodie_friday_llama2",
+           "prompt":"What are chocolates?"
+         }'
+```
+
 
 
 
