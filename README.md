@@ -31,4 +31,11 @@ Ollama provides a simple API for creating, running, and managing language models
 ![Ollama Image](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/862ef660-ef32-4bf0-af72-98873b4138e8)
 
 
+### Modifying Model
+```terminal
+ nano foodie_friday
+```
+
+### Nano File
+![Nano Image](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/2f05b7a3-379f-4da8-a63e-e6956fca7c4e)
 
