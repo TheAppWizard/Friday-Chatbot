@@ -99,7 +99,9 @@ ngrok is a tool that allows you to expose a local server or application running 
 
 
 ## Creating UI in SwiftUI / Flutter 
-I chose Flutter for Hybrid Development
+- I chose Flutter for Hybrid Development
+- Architecture Used : GetX
+- Loader - Spinkit
 ![Untitled](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/1583792b-9411-4d2b-bc9c-b3ce4bb63ec5)
 
 
