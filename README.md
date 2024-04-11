@@ -17,7 +17,7 @@ Ollama provides a simple API for creating, running, and managing language models
 
 ### First Run
 - Create custom language models
-  ````````
+  ```ollama run llama2```
 
 - Run and manage pre-built models
 - Easy integration with applications
