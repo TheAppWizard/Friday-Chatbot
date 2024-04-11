@@ -45,3 +45,20 @@ Ollama provides a simple API for creating, running, and managing language models
  ollama create foodie_friday_llama2 -f ./foodie_friday
 ```
 
+### Running Foodie-Friday
+![Friday Image](https://github.com/TheAppWizard/Friday-Chatbot/assets/70090469/aa247bcb-b8ec-4a18-abb9-da2b6b5d591a)
+
+
+### Running As API Service (Local Host)
+```curl
+ curl --location 'http://localhost:11434/api/chat' \
+         --header 'Content-Type: application/json' \
+         --data '{
+           "model": "foodie_friday_llama2",
+           "prompt":"What are chocolates?"
+         }'
+```
+
+
+
+
